@@ -1,0 +1,150 @@
+
+.FooterHero {
+  display: flex;
+  background-color: #212121;
+  color: #BDBDBD;
+  width: 100%;
+  height: 70%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+.FooterFlex {
+  width: 100%;
+  height: 70%;
+  column-gap: 100px;
+  display: flex;
+  justify-content: center;
+}
+.Footer-box-1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.Svg-Footer {
+  background-color: #424242;
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  fill: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+.Copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #E0E0E0;
+}
+.youtube:hover {
+  fill: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.facebook:hover {
+  fill: #0288D1;
+  cursor: pointer;
+}
+.twitter:hover {
+  fill: #0288D1;
+  cursor: pointer;
+}
+.instagram:hover {
+  fill: #009688;
+  cursor: pointer;
+}
+.youtube:hover {
+  fill: red;
+  cursor: pointer;
+}
+.Footer-p:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(225, 170, 170);
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  cursor: pointer;
+  text-decoration: underline;
+}
+.Footer-box-1 > h3 {
+  color: #ffffff;
+}
+ @media only screen and (max-width: 850px) {
+  .FooterFlex{
+    column-gap: 20px;
+    font-size: 12px;
+  }
+  .FooterHero {
+    padding: 30px;
+    height: 800px;
+  }
+  .Copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 771px) {
+  .FooterFlex{
+    font-size: 15px;
+    height: 313px;
+    column-gap: 50px;
+  }
+  .FooterHero {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 800px;
+  }
+  .Copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .FooterFlex{
+    font-size: 12px;
+    height: 313px;
+    column-gap: 20px;
+  }
+  .FooterHero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 550px;
+  }
+  .Copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .FooterFlex{
+    font-size: 11px;
+    height: 313px;
+    column-gap: 30px;
+    padding: 20px;
+  }
+  .FooterHero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 600px;
+  }
+  .Copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+} 

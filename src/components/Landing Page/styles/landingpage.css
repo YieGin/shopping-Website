@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #292929;
+  background: linear-gradient(180deg,rgb(43, 0, 255)84%);
+  border-radius: 0px;
+}
+.herosection {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+.LandingVideo-Text {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.LandingImage-Text {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.Hoodies-section{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.Images-2-section {
+  position: relative;
+  width: 700px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.Mostwanted {
+  color: black;
+  font-size: 35px;
+}
+.Hoodies-section .Div-Hoodies{
+  width: 1300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.Images-2-section .Div-Hoodies{
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Hoodies {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 12em;
+  line-height: 100vh;
+  animation: animate 150s linear infinite;
+  color: #fff;
+}
+.Hoodies-section .Div-Hoodies:nth-child(1) .Hoodies{
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-fill-color: transparent;
+  left: 100%;
+}
+@keyframes animate{
+  0% {
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+.LandingVideo {
+  height: 750px;
+  position: absolute;
+  width: 100vw;
+  object-fit: cover;
+  top: 0;
+  z-index: -1;
+}
+.Landing-Text-Jacket {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+}
+.LandingTextJacket {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.YieShopJackets {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.YieShopJackets > h2 {
+  width: 300px;
+  color: rgb(255, 234, 0);
+}
+.Shoping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  column-gap: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.ShopMens {
+  background-color: red;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.ShopMens:hover {
+  background-color: black;
+}
+.ShopWomens:hover {
+  background-color: black;
+}
+.ShopWomens {
+  background-color: red;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.clearpay {
+  color: #E0E0E0;
+  font-weight: 200;
+  line-height: 35px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Image7 {
+  height: 68vh;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.Landing-2-Images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 40px;
+  column-gap: 150px;
+  margin-top: 20px;
+}
+.Images8 {
+  height: 600px;
+  width: 40%;
+}
+
+.New-Season {
+  width: 650px;
+  height: 650px;
+  object-fit: cover;
+}
+.Landing-YieShop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  color: #BF360C;
+}
+.Landing-YieShop > h2 {
+  color: black;
+}
+.Most-wanted {
+  padding-bottom: 100px;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.Most-wanted-Image {
+  width: 300px;
+  height: 400px;
+  padding-bottom: 0px;
+}
+
+.Shoping-a {
+  position: relative;
+  background: #fff;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.Shoping-a:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25em;
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+}
+.Shoping-a::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+.Shoping-a .Shoping-span {
+  position: relative;
+  z-index: 1;
+}
+.Shoping-a .Shoping-i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.Shoping-a i::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.Shoping-a:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+.react-parallax-bgimage {
+  height: 150px;
+}
+.Shoping-a i::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.Shoping-a:hover i::after {
+  width: 20px;
+  left: 80%;
+}
+.Shop-Hoodies {
+    display: flex;
+}
+.Shoping-a-Hoodies{
+  position: relative;
+  background: #fff;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 0px 25px;
+  transition: 0.5s;
+}
+.Shoping-a-Hoodies:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25em;
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+  cursor: pointer;
+}
+.Shoping-a-Hoodies::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+.Shoping-a-Hoodies .Shoping-span {
+  position: relative;
+  z-index: 1;
+}
+.Shoping-a-Hoodies .Shoping-i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.Shoping-a-Hoodies i::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.Shoping-a-Hoodies:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+
+.Shoping-a-Hoodies i::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.Shoping-a-Hoodies:hover i::after {
+  width: 20px;
+  left: 80%;
+}
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(255, 0, 0, 0.2));
+}
+.waviy .WANTED {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i))
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+@media only screen and (max-width: 1362px) {
+  .New-Season {
+    width: 45%;
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .New-Season {
+    width: 100%;
+    height: 460px;
+    object-position: top;
+    border: 1px solid white;
+  }
+  .Landing-2-Images {
+    row-gap: 5px;
+    column-gap: 0px;
+    background-attachment: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .Images-2-section {
+    width: 100%;
+    height: 400px;
+  }
+  .Hoodies-section .Div-Hoodies{
+    font-size: 5px;
+  }
+  .Hoodies {
+    animation: animate 100s linear infinite;
+  }
+  .Image7 {
+    object-fit: cover;
+    object-position: 50% 10%;
+    height: 55vh;
+  }
+  .Landing-2-Images > div > div {
+    position:static;
+    transform-style:flat;
+  }
+  .Landing-Text-Jacket {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LandingImage-Text {
+    height: 500px;
+    width: 100%;
+  }
+  .LandingTextJacket{
+    width: 100%;
+  }
+  .LandingVideo-Text {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clearpay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .New-Season {
+    width: 100%;
+    height: 460px;
+    object-position: top;
+    border: 1px solid white;
+  }
+  .Landing-2-Images {
+    row-gap: 5px;
+    column-gap: 0px;
+    background-attachment: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    object-fit:cover;
+  }
+  .Images-2-section {
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+  }
+  .Hoodies-section .Div-Hoodies{
+    font-size: 5px;
+  }
+  .Hoodies {
+    animation: animate 100s linear infinite;
+  }
+  .Image7 {
+    object-fit: cover;
+    object-position: 50% 10%;
+    height: 55vh;
+  }
+  .Landing-2-Images > div > div {
+    position:static;
+    transform-style:flat;
+  }
+  .Landing-Text-Jacket {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LandingImage-Text {
+    height: 500px;
+    width: 100%;
+  }
+  .LandingTextJacket{
+    width: 100%;
+  }
+  .LandingVideo-Text {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clearpay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .Landing-2-Images {
+    row-gap: 5px;
+    column-gap: 0px;
+    background-attachment: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    object-fit:cover;
+    flex-wrap: wrap;
+  }
+  .Images-2-section {
+    width: 100vw;
+    height: 400px;
+    object-fit:cover;
+  }
+}

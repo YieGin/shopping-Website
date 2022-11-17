@@ -1,0 +1,138 @@
+.PhoneMenListMain {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: black;
+  display: none;
+  flex-wrap: wrap;
+}
+.PhoneListofMen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 10px;
+  color: white;
+  flex-wrap: nowrap;
+
+}
+.PhoneListofMen >p {
+  width: 180px;
+  text-decoration: underline;
+}
+.PhoneListofMen >h1 {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right, 
+    rgb(255, 255, 255) 0,
+    hsl(0, 0%, 100%) 40%,
+    hsl(0,0%,30%) 20%
+    ); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s infinite linear;
+}
+ 
+.PhoneListofMen >p {
+  font-size: 14px;
+}
+@media only screen and (max-width: 845px) {
+  .PhoneMenListMain {
+    display: flex;
+  }
+  .PhoneListofMen >h1 {
+    font-size: 17px;
+  }
+  .PhoneListofMen >p {
+    font-size: 14px;
+  }
+  .PhoneListofMen {
+    width: 25%;
+    row-gap: 13px;
+  }
+}
+@media only screen and (max-width: 722px) {
+  .PhoneListofMen >h1 {
+    font-size: 15px;
+  }
+  .PhoneListofMen >p {
+    font-size: 11px;
+  }
+  .PhoneListofMen {
+    width: 25%;
+    row-gap: 10px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .PhoneListofMen >h1 {
+    font-size: 13px;
+  }
+  .PhoneListofMen >p {
+    font-size: 9px;
+  }
+  .PhoneListofMen {
+    width: 25%;
+    row-gap: 10px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .PhoneListofMen >h1 {
+    font-size: 16px;
+  }
+  .PhoneListofMen >p {
+    font-size: 14px;
+  }
+  .PhoneListofMen {
+    width: 45%;
+    row-gap: 10px;
+    padding-bottom: 20px;
+  }
+  .PhoneMenListMain {
+    padding: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    row-gap: 20px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .PhoneListofMen >h1 {
+    font-size: 15px;
+  }
+  .PhoneListofMen >p {
+    font-size: 14px;
+  }
+  .PhoneListofMen {
+    width: 45%;
+    row-gap: 10px;
+    padding-bottom: 20px;
+  }
+  .PhoneMenListMain {
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    row-gap: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .PhoneListofMen >h1 {
+    font-size: 17px;
+  }
+  .P {
+    font-size: 14px;
+  }
+  .PhoneListofMen {
+    width: 45%;
+    row-gap: 10px;
+    padding-bottom: 20px;
+  }
+  .PhoneMenListMain {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+    row-gap: 20px;
+  }
+}

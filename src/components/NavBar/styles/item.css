@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  height: 80px;
+  width: 100vw;
+}
+
+.item-image {
+  height: 80px;
+  width: 110px;
+}
+
+.item-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark);
+  height: 100%;
+  width: 100%;
+  border: 1px solid white;
+  border-left: 0;
+  border-right: 0;
+  color: white;
+}

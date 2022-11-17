@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+
+}
+.ImageLog {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+}
+.Shoping-Login-Bigger {
+  position: relative;
+  background: #fff;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  width: 250px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.Shoping-Login-Bigger:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25em;
+  box-shadow: rgb(253, 252, 255);
+  filter: drop-shadow(0 0 25px rgba(243, 243, 243, 0.9));
+  cursor: pointer;
+}
+.Shoping-Login-Bigger::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+  border-radius: 5px;
+}
+
+.Shoping-Login-Bigger .Shoping-span-Login {
+  position: relative;
+  z-index: 1;
+}
+.Shoping-login {
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  position: relative;
+  background: #27282c;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.Shoping-Login-Bigger .Shoping-i-Login {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.Shoping-Login-Bigger i::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.Shoping-Login-Bigger:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+
+.Shoping-Login-Bigger i::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.Shoping-Login-Bigger:hover i::after {
+  width: 20px;
+  left: 80%;
+}
+
+
+.Login {
+  position: relative;
+  background: #fff;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  width: 270px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: 0.5s;
+  border-radius: 5px;
+
+}
+.Login:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25em;
+  box-shadow: rgb(253, 252, 255);
+  filter: drop-shadow(0 0 25px rgba(243, 243, 243, 0.9));
+  cursor: pointer;
+  
+}
+.Login::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+  border-radius: 5px;
+}
+
+.Login .Login-span-Login {
+  position: relative;
+  z-index: 1;
+  
+}
+.Login .Shoping-i-Login {
+  position: absolute;
+  inset: 0;
+  display: block;
+  
+}
+.Login i::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+  
+}
+.Login:hover i::before {
+  width: 20px;
+  left: 20%;
+  
+}
+
+.Login i::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background-color: #27282c;
+  transform: translate(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.Login:hover i::after {
+  width: 20px;
+  left: 80%;
+}
+.haveaccount {
+  margin-bottom: 20px;
+}
+.Register {
+  color: rgb(190, 12, 190);
+}
+.facebook {
+  color: rgb(0, 123, 255);
+}
+.facebook-Twitter {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}

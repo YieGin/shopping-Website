@@ -1,0 +1,43 @@
+.featureitem {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100vw;
+  height: 70px;
+}
+
+.featureitem-icon {
+  width: 50px;
+  background-color: var(--light);
+  border: 1px solid white;
+  border-right:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureitem-icon > svg {
+  width: 20px;
+}
+
+.featureitem-text {
+  width: 100%;
+  height: 50px;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  color: white;
+  border: 1px solid white;
+  border-left: 0;
+  border-right: 0;
+}
+
+.fill-dark {
+  fill: var(--dark);
+}
+
+.fill-white {
+  fill: white;
+}

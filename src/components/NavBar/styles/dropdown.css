@@ -1,0 +1,129 @@
+:root {
+  --primary: #424242;
+  --light: #6d6d6d;
+  --dark: #1b1b1b;
+}
+
+.closed {
+  position: absolute;
+  right: 6000px;
+}
+
+.open {
+  position: absolute;
+  right: 0;
+  top: 65px;
+}
+
+.dropdown {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  background-color: var(--dark);
+  display: none;
+  flex-direction: column;
+  overflow: scroll;
+  transition: 0.5s;
+  row-gap: 20px;
+}
+
+.dropdown-header {
+  display: flex;
+  height: 65px;
+  background-color: rgba(33, 33, 33, 0.8);
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  align-items: center;
+  color: white;
+  
+}
+.NavBar-Search {
+  padding: 8px 25px;
+}
+.dropdown-header > svg {
+  z-index: 10;
+  height: 60px;
+  fill:white;
+  margin-left: auto;
+  position: relative;
+  right: 20px;
+}
+.dropdown-search-container {
+  width: 100vw;
+  height: 40px;
+}
+
+.dropdown-search {
+  padding: 1.5rem;
+  font-size: 1rem;
+  width: calc(100%-4rem);
+  /* border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px; */
+  border: 1px solid white;
+  background-color: var(--dark);
+  color:white;
+  border-right: 0;
+}
+
+.dropdown-search:focus {
+  outline: none;
+}
+
+.dropdown-search-icon {
+  width: 54px;
+  height: 100%;
+  background-color: var(--light);
+  /* border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px; */
+  border: 1px solid white;
+  border-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-search-icon-svg {
+  fill: white;
+  height: 30px;
+}
+
+/* Hamburfer Menu */
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: none;
+  color: white;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:white;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.ham1 .top {
+  stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+  stroke-dasharray: 40 180;
+}
+.ham1.active .top {
+  stroke-dashoffset: -98px;
+}
+.ham1.active .bottom {
+  stroke-dashoffset: -138px;
+}
