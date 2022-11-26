@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/NavBar/Navbar";
 import "./app.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/Landing Page/LandingPage";
 import ClothingMens from "./Mens/ClothingMens/ClothingMens";
 import Footer from "./components/Footer/Footer";
@@ -84,7 +84,7 @@ import Search from "./SearchBar/Search";
 import Login from "./components/NavBar/Log in page/Login";
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/Login" element={<Login />}></Route>
@@ -170,7 +170,7 @@ const App = () => {
         <Route path="/OraganicWomen" element={<OraganicWomen />}></Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
