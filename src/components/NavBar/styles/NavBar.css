@@ -219,6 +219,6 @@
     display: none;
   }
   .YieShop {
-    display: none;
+    display: flex;
   }
 }

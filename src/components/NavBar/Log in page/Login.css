@@ -203,6 +203,7 @@
 .facebook-Twitter {
   padding-bottom: 20px;
   display: flex;
-  flex-direction: column;
   row-gap: 10px;
+  column-gap: 20px;
+  cursor: pointer;
 }
